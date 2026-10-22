@@ -2,3 +2,14 @@
 
 /* Slide-derived diagram placement activity */
 .q1-bank{display:grid;grid-template-columns:repeat(auto-fit,minmax(125px,1fr));gap:10px;margin:18px 0 22px}.cell-tile{color:var(--ink);background:#fff;border:2px solid var(--line);border-radius:12px;min-height:144px;padding:7px;display:flex;flex-direction:column;justify-content:center;align-items:center;gap:5px;line-height:1.15;font-size:.91rem}.cell-tile img{width:105px;height:88px;object-fit:contain}.cell-tile.selected{border-color:#084a77;box-shadow:0 0 0 3px #b1d3ee}.cell-tile.used{opacity:.45}.diagram-scroller{width:100%;overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:white}.lineage-canvas{min-width:940px;position:relative;aspect-ratio:1400/788}.lineage-canvas>img{width:100%;height:100%;position:absolute;inset:0}.diagram-spot{position:absolute;transform:translate(-50%,-50%);width:7.7%;height:9%;font-size:clamp(.7rem,1.1vw,.9rem);line-height:1.08;display:flex;align-items:center;justify-content:center;flex-direction:column;border:2px dashed #1d618e;border-radius:9px;color:#113e60;background:#fffde9ee;text-align:center;padding:3px;min-height:0}.diagram-spot:hover{filter:brightness(.96)}.diagram-spot.filled{background:#e1f1ff;border-style:solid}.diagram-spot.right{border-color:var(--good);background:#dff5e5}.diagram-spot.wrong{border-color:var(--bad);background:#ffebdd}.spotnum{font-size:.78em;font-weight:900}.spotval{font-size:.75em;overflow-wrap:anywhere}.accessible-locations{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:14px}.location-row{display:grid;gap:5px}.location-row label{font-weight:700;font-size:.9rem}.cellfig img{max-width:360px}.cellfig{background:#d9eaf5}@media(max-width:740px){.accessible-locations{grid-template-columns:1fr}.lineage-canvas{min-width:900px}.cell-tile{min-height:126px}}
+
+/* Seven target positions match the seven white blanks in the supplied original diagram. */
+.diagram-spot{width:9.7%;height:18%;background:#ffffffeb;border:2px dashed #0b4674;padding:3px;box-shadow:inset 0 0 0 1px #ffffff;overflow:hidden}
+.diagram-spot .placed-art{display:block;width:74%;height:69%;object-fit:contain;flex:1 1 auto;min-height:0}
+.diagram-spot .placed-art[hidden]{display:none}
+.diagram-spot .spotnum{font-size:.73rem;line-height:1.1}
+.diagram-spot .spotval{font-size:.7rem}
+.diagram-spot.filled{background:#ffffffee}
+.diagram-spot.right{background:#e2f5e7ed}
+.diagram-spot.wrong{background:#ffebdded}
+@media(max-width:740px){.lineage-canvas{min-width:940px}}

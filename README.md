@@ -14,7 +14,7 @@ GitHub Pages-ready static practice activity repository.
 1. Create a **public** GitHub repository named `rice-immunology-interactives` (or use a Rice-owned GitHub organization, if available). Public Pages and image copyright should be checked before publishing.
 2. Upload **the contents of this ZIP** to the root of the new repository, preserving folders (the ZIP has no wrapper folder).
 3. In **Settings → Pages**, choose **Deploy from a branch**, `main`, `/ (root)` and save.
-4. Your first lesson will then be at: `https://USERNAME.github.io/rice-immunology-interactives/course-1/module-01/lesson-01/`. Replace USERNAME with the owner.
+4. Your first lesson will then be at: `https://immunology-coursera.github.io/rice-immunology-interactives/course-1/module-01/lesson-01/`. 
 5. Test the URL and Coursera iframe embedding before publishing learner-facing links.
 
 ### Notes
